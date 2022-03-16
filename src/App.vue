@@ -1,7 +1,6 @@
 <template>
   <div>
     <button @click="getSelectedRows()">Get Selected Rows</button>
-
     <ag-grid-vue style="width: 500px; height: 500px;"
         class="ag-theme-alpine"
         :columnDefs="columnDefs"
